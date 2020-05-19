@@ -1,0 +1,31 @@
+{
+  "name": "FR-brain-API",
+  "version": "1.0.0",
+  "description": "RESTful API build with nodejs and express for the image recognition web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bessonglawrence/FR-brain-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bessonglawrence/FR-brain-API/issues"
+  },
+  "homepage": "https://github.com/Bessonglawrence/FR-brain-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "brcypt": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
