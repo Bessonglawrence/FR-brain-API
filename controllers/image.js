@@ -24,6 +24,6 @@ const handleImage = (req, res, db) =>{
 	.catch(err => res.status(400).json('Unable to add entry'))
 }
 module.exports ={
-	handleImage: handleImage,
-	handleApiCall: handleApiCall
+	handleImage,
+	handleApiCall
 }
